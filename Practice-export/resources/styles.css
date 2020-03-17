@@ -1,0 +1,17 @@
+.background {
+  viewport-fill: darkslategrey;
+}
+
+#myLabel {
+  font-size: 80;
+  font-family: Seville-Condensed;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+20;
+  fill: cyan;
+}
+
+#arcOne {
+  
+}

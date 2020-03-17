@@ -1,0 +1,25 @@
+{
+  "fitbit": {
+    "appUUID": "f2e896cf-5146-4dec-9866-ff3aa456c6da",
+    "appType": "clockface",
+    "appDisplayName": "Practice",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Practice"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}
