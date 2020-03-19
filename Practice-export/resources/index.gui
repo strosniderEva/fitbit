@@ -1,12 +1,12 @@
 <svg class="background">
   <text id="myLabel" />
-  <arc id="arcOne" x="200" y="70" width="100" height="100" fill="magenta"
-    arc-width="10" start-angle="0" sweep-angle="180" />
-  <arc id="arcTwo" x="40" y="70" width="100" height="100" fill="white"
-    arc-width="10" start-angle="180" sweep-angle="180" />
-  <arc id="arcThree" x="20" y="80" width="120" height="120" fill="white"
-    arc-width="10" start-angle="180" sweep-angle="180" />
-  <arc id="arcOne" x="220" y="80" width="120" height="120" fill="magenta"
-    arc-width="10" start-angle="0" sweep-angle="180" />
+  <arc id="arcOne" />
+  <arc id="arcTwo" />
+  <arc id="arcThree"/>
+  <arc id="arcFour" />
   <text id="txtSteps" />
+  <image id="hexOne" href="hexagon.png" />
+  <image id="hexTwo" href="hexagon.png" />
+  <image id="hexThree" href="hexagon.png" />
 </svg>
+

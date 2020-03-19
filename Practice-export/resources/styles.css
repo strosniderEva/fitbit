@@ -1,31 +1,47 @@
 .background {
-  viewport-fill: darkslategrey;
+  viewport-fill: gold;
 }
 
 #myLabel {
-  font-size: 80;
+  font-size: 63;
   font-family: Seville-Condensed;
   text-length: 32;
   text-anchor: middle;
-  x: 50%;
-  y: 50%+20;
-  fill: cyan;
+  x: 30%;
+  y: 39%;
+  fill: black;
 }
 
 arc{
   opacity:0.6;
 }
 
-#arcOne {
-  
+#hexOne {
+  height: 56%;
+  width: 37%;
+  x:11%+2;
+  y:0%+1;
+}
+#hexTwo {
+  height: 56%;
+  width: 37%;
+  x:31%;
+  y:42%+1;
+}
+
+#hexThree {
+  height: 56%;
+  width: 37%;
+  x:50%+1;
+  y:0%+1;
 }
 
 #txtSteps {
-  font-size: 55;
+  font-size: 25;
   font-family: Seville-Condensed;
   text-length: 35;
   text-anchor: middle;
   x: 50%;
-  y: 80%+10;
-  fill: cyan;
+  y: 80%;
+  fill: black;
 }
