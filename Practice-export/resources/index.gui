@@ -8,4 +8,5 @@
     arc-width="10" start-angle="180" sweep-angle="180" />
   <arc id="arcOne" x="220" y="80" width="120" height="120" fill="magenta"
     arc-width="10" start-angle="0" sweep-angle="180" />
+  <text id="txtSteps" />
 </svg>

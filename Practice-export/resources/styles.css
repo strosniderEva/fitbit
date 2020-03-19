@@ -15,3 +15,13 @@
 #arcOne {
   
 }
+
+#txtSteps {
+  font-size: 55;
+  font-family: Seville-Condensed;
+  text-length: 35;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+10;
+  fill: cyan;
+}
