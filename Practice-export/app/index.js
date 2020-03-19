@@ -4,7 +4,7 @@ import { preferences } from "user-settings";
 import * as util from "../common/utils";
 
 import { me as appbit } from "appbit";
-import { today } from "user-activity";
+import { today, goals } from "user-activity";
 
 if (appbit.permissions.granted("access_activity")) {
    console.log(`${today.adjusted.steps} Steps`);
@@ -14,7 +14,7 @@ if (appbit.permissions.granted("access_activity")) {
 }
 
 // Update the clock every minute
-clock.granularity = "minutes";
+clock.granularity = "seconds";
 
 // Get a handle on the <text> element
 const myLabel = document.getElementById("myLabel");
@@ -22,8 +22,10 @@ const txtSteps = document.getElementById("txtSteps");
 
 // Update the <text> element every tick with the current time
 clock.ontick = (evt) => {
-  let today = evt.date;
-  let hours = today.getHours();
+  //Update step counter
+  
+  let now = evt.date;
+  let hours = now.getHours();
   if (preferences.clockDisplay === "12h") {
     // 12h format
     hours = hours % 12 || 12;
@@ -31,10 +33,18 @@ clock.ontick = (evt) => {
     // 24h format
     hours = util.zeroPad(hours);
   }
-  let mins = util.zeroPad(today.getMinutes());
+  let mins = util.zeroPad(now.getMinutes());
   myLabel.text = `${hours}:${mins}`;
   
-  txtSteps.text = 'Steps:';
-  //console.log(`${today.adjusted.steps} `);
+  if (appbit.permissions.granted("access_activity")) {
+   let stepCount = today.adjusted.steps || 0;
+    txtSteps.text = 'Steps:' + stepCount.toString();
+    console.log("stepCount = " + stepCount.toString());
+  }
+  
+  
   
 }
+
+
+
