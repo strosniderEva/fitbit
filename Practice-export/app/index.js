@@ -17,8 +17,13 @@ if (appbit.permissions.granted("access_activity")) {
 clock.granularity = "seconds";
 
 // Get a handle on the <text> element
-const myLabel = document.getElementById("myLabel");
+const myClock = document.getElementById("myClock");
 const txtSteps = document.getElementById("txtSteps");
+const txtElev = document.getElementById("txtElev");
+const hexOne = document.getElementById("hexOne");
+const hexTwo = document.getElementById("hexTwo");
+const hexThree = document.getElementById("hexThree");
+
 
 // Update the <text> element every tick with the current time
 clock.ontick = (evt) => {
@@ -34,17 +39,21 @@ clock.ontick = (evt) => {
     hours = util.zeroPad(hours);
   }
   let mins = util.zeroPad(now.getMinutes());
-  myLabel.text = `${hours}:${mins}`;
+  myClock.text = `${hours}:${mins}`;
   
   if (appbit.permissions.granted("access_activity")) {
    let stepCount = today.adjusted.steps || 0;
+   let elevation = today.adjusted.elevationGain || 0;
+   
     txtSteps.text = 'Steps:' + stepCount.toString();
-    console.log("stepCount = " + stepCount.toString());
+    txtElev.text = 'Floors:' + elevation.toString();
+    //console.log("stepCount = " + stepCount.toString());
+     
   }
   
-  
+  //doesn't work yet
+  myClock.onclick = function(e) {
+     console.log('click');
+  }
   
 }
-
-
-
