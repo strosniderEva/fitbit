@@ -1,11 +1,12 @@
 <svg class="background">
-  <text id="myLabel" />
+  <text id="myClock" />
   <arc id="arcOne" />
   <arc id="arcTwo" />
   <arc id="arcThree"/>
   <arc id="arcFour" />
   <text id="txtSteps" />
-  <image id="hexOne" href="hexagon.png" />
+   <text id="txtElev" />
+  <image id="hexOne" class="one" href="hexagon.png" />
   <image id="hexTwo" href="hexagon.png" />
   <image id="hexThree" href="hexagon.png" />
 </svg>
