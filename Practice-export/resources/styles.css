@@ -2,7 +2,7 @@
   viewport-fill: gold;
 }
 
-#myLabel {
+#myClock {
   font-size: 63;
   font-family: Seville-Condensed;
   text-length: 32;
@@ -22,6 +22,12 @@ arc{
   x:11%+2;
   y:0%+1;
 }
+
+.one{
+  fill: #000000;
+  opacity: 1;
+}
+
 #hexTwo {
   height: 56%;
   width: 37%;
@@ -43,5 +49,15 @@ arc{
   text-anchor: middle;
   x: 50%;
   y: 80%;
+  fill: black;
+}
+
+#txtElev {
+  font-size: 25;
+  font-family: Seville-Condensed;
+  text-length: 35;
+  text-anchor: middle;
+  x: 65%;
+  y: 39%;
   fill: black;
 }
