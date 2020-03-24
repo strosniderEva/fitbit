@@ -1,13 +1,20 @@
 <svg class="background">
-  <text id="myClock" />
   <arc id="arcOne" />
   <arc id="arcTwo" />
   <arc id="arcThree"/>
   <arc id="arcFour" />
-  <text id="txtSteps" />
-   <text id="txtElev" />
+  
+  <image id="hbgOne" href="hexagon_bg.png" />
   <image id="hexOne" class="one" href="hexagon.png" />
+  
+  <image id="hbgTwo" href="hexagon_bg.png" />
   <image id="hexTwo" href="hexagon.png" />
-  <image id="hexThree" href="hexagon.png" />
+  
+  <image id="hbgThree" href="hexagon_bg.png" />
+  <image id="hexThree" href="hexagon.png" />  
+  
+  <text id="myClock" />
+  <text id="txtSteps" />
+  <text id="txtElev" />
 </svg>
 
