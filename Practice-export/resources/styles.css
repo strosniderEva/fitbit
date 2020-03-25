@@ -1,5 +1,5 @@
 .background {
-  viewport-fill: gold;
+  viewport-fill: black;
 }
 
 #myClock {
@@ -16,26 +16,49 @@ arc{
   opacity:0.6;
 }
 
-#hexOne {
+#hexOne{
+  fill:black;
+  height: 56%;
+  width: 37%;
+  x:11%+2;
+  y:0%+1;
+}
+#hbgOne{
+  fill:#999999;
   height: 56%;
   width: 37%;
   x:11%+2;
   y:0%+1;
 }
 
-.one{
+
+/* .one{
   fill: #000000;
   opacity: 1;
-}
+} */
 
-#hexTwo {
+#hexTwo{
+  height: 56%;
+  width: 37%;
+  x:31%;
+  y:42%+1;
+}
+#hbgTwo{
+  fill:white;
   height: 56%;
   width: 37%;
   x:31%;
   y:42%+1;
 }
 
-#hexThree {
+#hexThree{
+  height: 56%;
+  width: 37%;
+  x:50%+1;
+  y:0%+1;
+}
+#hbgThree{
+  fill:white;
   height: 56%;
   width: 37%;
   x:50%+1;
