@@ -13,9 +13,11 @@ if (appbit.permissions.granted("access_activity")) {
      console.log(`${today.adjusted.elevationGain} Floor(s)`);
    }
   //Cant access goals on simulator????
-  // if (goals.local.elevationGain !== undefined) {
-  //    console.log(`${goals.adjusted.elevationGain} Floor Goal`);
-  //  }
+ 
+   if (goals.elevationGain !== undefined) {
+     console.log(`${goals.elevationGain} Floor Goal`);
+   }
+  
 }
 
 // Update the clock every minute
@@ -74,9 +76,8 @@ clock.ontick = (evt) => {
   var ec2 = 6;
   var ec3 = 0;
   var elev = today.adjusted.elevationGain;
-  // var elevGoal = goals.local.elevationGain
-  //cant access goals on simulator??
-  var elevGoal = 10;
+  //fixed it. accessing the variables of the goals object
+  var elevGoal = goals.elevationGain;
   var elevMod = (elev / elevGoal) * 10;
     if(elevMod >9){
       ec1-=9
@@ -95,20 +96,8 @@ clock.ontick = (evt) => {
   var elevColor = "#" + ec1.toString(16) + ec1.toString(16) + ec2.toString(16) + ec2.toString(16) + ec3.toString(16) + ec3.toString(16);
   document.getElementById("hbgThree").style.fill = elevColor;
   
-  
-  
-  
-  
-  
-  
-  
-  //doesn't work yet
   myClock.onclick = function(e) {
      console.log('click');
   }
   
 }
-
-
-
-
