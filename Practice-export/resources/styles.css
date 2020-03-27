@@ -1,77 +1,96 @@
 .background {
-  viewport-fill: black;
+  viewport-fill: cornsilk;
 }
 
 #myClock {
-  font-size: 63;
+  font-size: 50;
   font-family: Seville-Condensed;
   text-length: 32;
   text-anchor: middle;
-  x: 30%;
-  y: 39%;
+  x: 32%;
+  y: 35%;
   fill: black;
-}
-
-arc{
-  opacity:0.6;
 }
 
 #hexOne{
   fill:black;
-  height: 56%;
-  width: 37%;
-  x:11%+2;
-  y:0%+1;
+  height: 51%;
+  width: 32%;
+  x:16%+3;
+  y:1%+1;
 }
 #hbgOne{
   fill:#999999;
-  height: 56%;
-  width: 37%;
-  x:11%+2;
-  y:0%+1;
+  height: 51%;
+  width: 32%;
+  x:16%+3;
+  y:1%+1;
 }
 
-
-/* .one{
-  fill: #000000;
-  opacity: 1;
-} */
-
 #hexTwo{
-  height: 56%;
-  width: 37%;
-  x:31%;
-  y:42%+1;
+  height: 51%;
+  width: 32%;
+  x:34%+1;
+  y:42%+2;
 }
 #hbgTwo{
   fill:white;
-  height: 56%;
-  width: 37%;
-  x:31%;
-  y:42%+1;
+  height: 51%;
+  width: 32%;
+  x:34%+1;
+  y:42%+2;
 }
 
 #hexThree{
-  height: 56%;
-  width: 37%;
-  x:50%+1;
-  y:0%+1;
+  height: 51%;
+  width: 32%;
+  x:51%+1;
+  y:1%+1;
 }
 #hbgThree{
   fill:white;
-  height: 56%;
-  width: 37%;
-  x:50%+1;
-  y:0%+1;
+  height: 51%;
+  width: 32%;
+  x:51%+1;
+  y:1%+1;
+}
+
+#hexFour{
+  height: 51%;
+  width: 32%;
+  x:68%;
+  y:42%+2;
+}
+#hbgFour{
+  fill:white;
+  height: 51%;
+  width: 32%;
+  x:68%;
+  y:42%+2;
+}
+
+#hexFive{
+  height: 51%;
+  width: 32%;
+  x:0%+1;
+  y:42%+2;
+}
+
+#hbgFive{
+  fill:white;
+  height: 51%;
+  width: 32%;
+  x:0%+1;
+  y:42%+2;
 }
 
 #txtSteps {
-  font-size: 25;
+  font-size: 24;
   font-family: Seville-Condensed;
   text-length: 35;
   text-anchor: middle;
   x: 50%;
-  y: 80%;
+  y: 75%;
   fill: black;
 }
 
@@ -81,6 +100,60 @@ arc{
   text-length: 35;
   text-anchor: middle;
   x: 65%;
-  y: 39%;
+  y: 35%;
+  fill: black;
+}
+
+#txtDist {
+  font-size: 25;
+  font-family: Seville-Condensed;
+  text-length: 35;
+  text-anchor: middle;
+  x: 85%;
+  y: 75%;
+  fill: black;
+}
+
+#txtCal {
+  font-size: 25;
+  font-family: Seville-Condensed;
+  text-length: 35;
+  text-anchor: middle;
+  x: 15%;
+  y: 75%;
+  fill: black;
+}
+
+
+
+#stepsIcon{
+  height: 10%;
+  width: 10%;
+  x: 45%;
+  y: 55%;
+  fill: black;
+}
+
+#distanceIcon{
+  height: 10%;
+  width: 10%;
+  x: 80%;
+  y: 55%;
+  fill: black;
+}
+
+#caloriesIcon{
+  height: 10%;
+  width: 10%;
+  x: 11%+1;
+  y: 55%;
+  fill: black;
+}
+
+#floorsIcon{
+  height: 10%;
+  width: 10%;
+  x: 60%;
+  y: 15%;
   fill: black;
 }
