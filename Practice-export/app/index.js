@@ -21,6 +21,7 @@ if (appbit.permissions.granted("access_activity")) {
   if (goals.calories !== undefined) {
      console.log(`${goals.calories} Calories Goal`);
    }
+  
   if (goals.distance !== undefined) {
      console.log(`${goals.distance} Distance Goal`);
    }
