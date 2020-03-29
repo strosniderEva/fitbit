@@ -12,6 +12,7 @@ if (appbit.permissions.granted("access_activity")) {
    console.log(`${today.adjusted.elevationGain} Floor(s)`);
    console.log(`${today.adjusted.calories} Calories(s)`);
    console.log(`${today.adjusted.distance} Distance`);
+
   
    if (goals.steps !== undefined) {
      console.log(`${goals.steps} Steps Goal`);
@@ -19,6 +20,18 @@ if (appbit.permissions.granted("access_activity")) {
   if (goals.calories !== undefined) {
      console.log(`${goals.calories} Calories Goal`);
    }
+  if (goals.distance !== undefined) {
+     console.log(`${goals.distance} Distance Goal`);
+  }
+
+   if (goals.elevationGain !== undefined) {
+     console.log(`${goals.elevationGain} Floor Goal`);
+   }
+  
+  if (goals.calories !== undefined) {
+     console.log(`${goals.calories} Calories Goal`);
+   }
+  
   if (goals.distance !== undefined) {
      console.log(`${goals.distance} Distance Goal`);
    }
@@ -34,6 +47,7 @@ const txtSteps = document.getElementById("txtSteps");
 const txtElev = document.getElementById("txtElev");
 const txtDist = document.getElementById("txtDist");
 const txtCal = document.getElementById("txtCal");
+
 
   
 
@@ -63,6 +77,7 @@ clock.ontick = (evt) => {
    let caloriesGoal = 0;
   
   if (appbit.permissions.granted("access_activity")) {
+
    stepCount = today.adjusted.steps || 0;
    elevation = today.adjusted.elevationGain || 0;
    distance = today.adjusted.distance || 0;
@@ -77,6 +92,7 @@ clock.ontick = (evt) => {
     txtElev.text = elevation.toString();
     txtDist.text = distance.toString() + 'm';
     txtCal.text = calories.toString();
+
   } 
   
   
@@ -89,6 +105,7 @@ clock.ontick = (evt) => {
       document.getElementById("hbgOne").style.fill = "#1e122a"; 
         break;
        case (time <= 4):
+
       document.getElementById("hbgOne").style.fill = "#5c264a"; 
         break;
        case (time <= 6):
@@ -187,7 +204,6 @@ clock.ontick = (evt) => {
       case (elevation >= (elevationGoal)):
         document.getElementById("hbgThree").style.fill = "#ffdf21"; 
         break;
-         
   }
   
 //Distance
@@ -213,3 +229,4 @@ clock.ontick = (evt) => {
          
   }
 }
+

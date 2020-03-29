@@ -5,6 +5,7 @@
   <arc id="arcFour" />
   
   <image id="hbgOne" href="pictures/hexagon_bg.png" />
+
   <image id="hexOne" href="pictures/hexagon2.png" />
   
   <image id="hbgTwo" href="pictures/hexagon_bg.png" />
@@ -18,6 +19,7 @@
   
    <image id="hbgFive" href="pictures/hexagon_bg.png" />
   <image id="hexFive" href="pictures/hexagon2.png" />  
+
   
   <text id="myClock" />
   <text id="txtSteps" />
