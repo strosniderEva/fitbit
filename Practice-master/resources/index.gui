@@ -1,0 +1,34 @@
+<svg class="background">
+  <arc id="arcOne" />
+  <arc id="arcTwo" />
+  <arc id="arcThree"/>
+  <arc id="arcFour" />
+  
+  <image id="hbgOne" href="pictures/hexagon_bg.png" />
+
+  <image id="hexOne" href="pictures/hexagon2.png" />
+  
+  <image id="hbgTwo" href="pictures/hexagon_bg.png" />
+  <image id="hexTwo" href="pictures/hexagon2.png" />
+  
+  <image id="hbgThree" href="pictures/hexagon_bg.png" />
+  <image id="hexThree" href="pictures/hexagon2.png" />  
+  
+   <image id="hbgFour" href="pictures/hexagon_bg.png" />
+  <image id="hexFour" href="pictures/hexagon2.png" />  
+  
+   <image id="hbgFive" href="pictures/hexagon_bg.png" />
+  <image id="hexFive" href="pictures/hexagon2.png" />  
+
+  
+  <text id="myClock" />
+  <text id="txtSteps" />
+  <text id="txtElev" />
+  <text id="txtCal" />
+  <text id="txtDist" />
+  
+  <image id="stepsIcon" href="pictures/stepsIcon.png" />
+   <image id="distanceIcon" href="pictures/distanceIcon.png" />
+   <image id="caloriesIcon" href="pictures/caloriesIcon.png" />
+   <image id="floorsIcon" href="pictures/floorsIcon.png" />
+</svg>
