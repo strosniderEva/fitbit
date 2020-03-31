@@ -4,41 +4,42 @@ import { preferences } from "user-settings";
 import * as util from "../common/utils";
 
 import { me as appbit } from "appbit";
+import { me as device } from "device";
 import { today} from "user-activity";
 import { goals } from "user-activity";
 
 if (appbit.permissions.granted("access_activity")) {
-   console.log(`${today.adjusted.steps} Steps`);
-   console.log(`${today.adjusted.elevationGain} Floor(s)`);
-   console.log(`${today.adjusted.calories} Calories(s)`);
-   console.log(`${today.adjusted.distance} Distance`);
+//    console.log(`${today.adjusted.steps} Steps`);
+//    console.log(`${today.adjusted.elevationGain} Floor(s)`);
+//    console.log(`${today.adjusted.calories} Calories(s)`);
+//    console.log(`${today.adjusted.distance} Distance`);
 
   
-   if (goals.steps !== undefined) {
-     console.log(`${goals.steps} Steps Goal`);
-   }
-  if (goals.calories !== undefined) {
-     console.log(`${goals.calories} Calories Goal`);
-   }
-  if (goals.distance !== undefined) {
-     console.log(`${goals.distance} Distance Goal`);
-  }
+//    if (goals.steps !== undefined) {
+//      console.log(`${goals.steps} Steps Goal`);
+//    }
+//   if (goals.calories !== undefined) {
+//      console.log(`${goals.calories} Calories Goal`);
+//    }
+//   if (goals.distance !== undefined) {
+//      console.log(`${goals.distance} Distance Goal`);
+//   }
 
-   if (goals.elevationGain !== undefined) {
-     console.log(`${goals.elevationGain} Floor Goal`);
-   }
+//    if (goals.elevationGain !== undefined) {
+//      console.log(`${goals.elevationGain} Floor Goal`);
+//    }
   
-  if (goals.calories !== undefined) {
-     console.log(`${goals.calories} Calories Goal`);
-   }
+//   if (goals.calories !== undefined) {
+//      console.log(`${goals.calories} Calories Goal`);
+//    }
   
-  if (goals.distance !== undefined) {
-     console.log(`${goals.distance} Distance Goal`);
-   }
+//   if (goals.distance !== undefined) {
+//      console.log(`${goals.distance} Distance Goal`);
+//    }
   
 }
 
-// Update the clock every minute
+// Update the clock every second
 clock.granularity = "seconds";
 
 // Get a handle on the <text> element
