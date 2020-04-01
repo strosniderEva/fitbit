@@ -1,0 +1,165 @@
+.background {
+  viewport-fill: darkslategrey;
+}
+
+#myClock {
+  font-size: 42;
+  font-family: Seville-Condensed;
+  text-length: 32;
+  text-anchor: middle;
+  x: 32%;
+  y: 37%;
+  fill: black;
+}
+
+#hexOne{
+  fill:black;
+  height: 41%;
+  width: 33%;
+  x:16%+2;
+  y:12%;
+}
+#hbgOne{
+  fill:#999999;
+  height: 41%;
+  width: 33%;
+  x:16%+2;
+  y:12%;
+}
+
+#hexTwo{
+  height: 41%;
+  width: 33%;
+  x:32%+3;
+  y:42%+2;
+}
+#hbgTwo{
+  fill:white;
+  height: 41%;
+  width: 33%;
+  x:32%+3;
+  y:42%+2;
+}
+
+#hexThree{
+  height: 41%;
+  width: 33%;
+  x:49%+1;
+  y:12%;
+}
+#hbgThree{
+  fill:white;
+  height: 41%;
+  width: 33%;
+  x:49%+1;
+  y:12%;
+}
+
+#hexFour{
+  height: 41%;
+  width: 33%;
+  x:66%;
+  y:42%+2;
+}
+#hbgFour{
+  fill:white;
+  height: 41%;
+  width: 33%;
+  x:66%;
+  y:42%+2;
+}
+
+#hexFive{
+  height: 41%;
+  width: 33%;
+  x:0%;
+  y:42%+2;
+}
+
+#hbgFive{
+  fill:white;
+  height: 41%;
+  width: 33%;
+  x:0%;
+  y:42%+2;
+}
+
+#txtSteps {
+  font-size: 24;
+  font-family: Seville-Condensed;
+  text-length: 35;
+  text-anchor: middle;
+  x: 50%;
+  y: 72%;
+  fill: black;
+}
+
+#txtElev {
+  font-size: 25;
+  font-family: Seville-Condensed;
+  text-length: 35;
+  text-anchor: middle;
+  x: 65%;
+  y: 40%;
+  fill: black;
+}
+
+#txtDist {
+  font-size: 25;
+  font-family: Seville-Condensed;
+  text-length: 35;
+  text-anchor: middle;
+  x: 83%;
+  y: 72%;
+  fill: black;
+}
+
+#txtCal {
+  font-size: 25;
+  font-family: Seville-Condensed;
+  text-length: 35;
+  text-anchor: middle;
+  x: 15%;
+  y: 72%;
+  fill: black;
+}
+
+
+
+#stepsIcon{
+  height: 10%;
+  width: 10%;
+  x: 45%;
+  y: 52%;
+  fill: black;
+}
+
+#distanceIcon{
+  height: 10%;
+  width: 10%;
+  x: 77%+1;
+  y: 52%;
+  fill: black;
+}
+
+#caloriesIcon{
+  height: 10%;
+  width: 10%;
+  x: 11%+1;
+  y: 52%;
+  fill: black;
+}
+
+#floorsIcon{
+  height: 10%;
+  width: 10%;
+  x: 60%;
+  y: 20%;
+  fill: black;
+}
+
+#beeIcon{
+  height: 9%;
+  width: 10%;
+  fill:black;
+}
