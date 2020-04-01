@@ -1,7 +1,5 @@
 .background {
-
-  viewport-fill: #FFFADA;
-
+  viewport-fill: darkslategrey;
 }
 
 #myClock {
@@ -18,14 +16,14 @@
   fill:black;
   height: 41%;
   width: 33%;
-  x:16%;
+  x:16%+2;
   y:12%;
 }
 #hbgOne{
   fill:#999999;
   height: 41%;
   width: 33%;
-  x:16%;
+  x:16%+2;
   y:12%;
 }
 
@@ -158,4 +156,10 @@
   x: 60%;
   y: 20%;
   fill: black;
+}
+
+#beeIcon{
+  height: 9%;
+  width: 10%;
+  fill:black;
 }
