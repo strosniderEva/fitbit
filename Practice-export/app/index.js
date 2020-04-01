@@ -76,6 +76,8 @@ clock.ontick = (evt) => {
    }    
    if(model == "Versa Lite"){
      document.getElementById("hbgThree").style.fill = "#1a4e7d"; 
+     txtElev.style.fill = "#fcf8bd";
+     elev.style.fill = "#fcf8bd";
    }
  }
 
