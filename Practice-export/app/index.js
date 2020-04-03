@@ -87,7 +87,7 @@ clock.ontick = (evt) => {
   let suffix = "";
   if (preferences.clockDisplay === "12h") {
     // 12h format
-    hours-=5;
+    //hours-=5;
     if(hours >= 12){
         suffix =" PM";
       }
