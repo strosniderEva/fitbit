@@ -84,15 +84,23 @@ clock.ontick = (evt) => {
   //Update step counter 
   let now = evt.date;
   let hours = now.getHours();
+  let suffix = "";
   if (preferences.clockDisplay === "12h") {
     // 12h format
+    hours-=5;
+    if(hours >= 12){
+        suffix =" PM";
+      }
+    else{
+        suffix =" AM";
+      }
     hours = hours % 12 || 12;
   } else {
     // 24h format
     hours = util.zeroPad(hours);
   }
   let mins = util.zeroPad(now.getMinutes());
-  myClock.text = `${hours}:${mins}`;
+  myClock.text = `${hours}:${mins}${suffix}`;
   
    let stepCount = 0;
    let elevation = 0;

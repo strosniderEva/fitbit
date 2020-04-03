@@ -3,11 +3,11 @@
 }
 
 #myClock {
-  font-size: 42;
+  font-size: 28;
   font-family: Seville-Condensed;
   text-length: 32;
   text-anchor: middle;
-  x: 32%;
+  x: 33%;
   y: 37%;
   fill: black;
 }
